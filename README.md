@@ -4,7 +4,7 @@ When a delivery order comes in we need to give an accurate prediction of how lon
 
 ## Getting Started
 
-Upload your training data as a comma separated csv or json into a folder called 'data' in the root directory.  Then run ```python train.py <input_file>``` from the ```src``` directory.  The training program will output a file called ```rf.dill``` to the ```app``` directory.  Upload your data to predict as a comma separated csv or json to the ```app``` folder with an added column ```delivery_id```.  Run ```python predict.py <data_to_predict>```.  The output will be written with tab separation in ```predictions.csv```.
+Upload your training data as a comma separated csv or json into the 'data' folder and run `split.py` on it.  Then run ```python train.py <input_file>``` from the ```src``` directory.  The training program will output a file called ```rf.dill``` to the ```app``` directory.  Upload your data to predict as a comma separated csv or json to the ```app``` folder with an added column ```delivery_id```.  Run ```python predict.py <data_to_predict>```.  The output will be written with tab separation in ```predictions.csv```.
 
 ### Required Packages
 
