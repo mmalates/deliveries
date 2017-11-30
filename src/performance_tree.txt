@@ -1,0 +1,2 @@
+model trained with error: 798.704769031
+model tested with error: 833.946553569

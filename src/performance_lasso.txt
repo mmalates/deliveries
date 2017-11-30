@@ -1,0 +1,3 @@
+best hyperparameter is: 0.00228086819836
+model trained with error: 812.535344907
+model tested with error: 844.314930299
